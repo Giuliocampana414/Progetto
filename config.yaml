@@ -1,0 +1,25 @@
+path : C:/Users/Utente/OneDrive/Desktop/TrainYolov8
+train: images/train
+val: images/val
+test: images/test
+
+nc: 18
+names:
+  0: gnd
+  1: pmos
+  2: nmos
+  3: pnp
+  4: npn
+  5: resistor
+  6: capacitor
+  7: voltage
+  8: current
+  9: diode
+  10: inductor
+  11: and
+  12: or
+  13: xor
+  14: inverter
+  15: dflipflop
+  16: opamp
+  17: tgate
